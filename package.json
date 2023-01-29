@@ -6,7 +6,8 @@
     "start": "next start",
     "type-check": "tsc",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pretty": "npx prettier --write ."
   },
   "dependencies": {
     "next": "latest",
